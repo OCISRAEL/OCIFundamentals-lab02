@@ -38,11 +38,11 @@
 
     Clone the code into your device by running the following command:
 
-        git clone https://github.com/OCI-IL/OCIFundamentals-lab-02.git
+        git clone https://github.com/OCISRAEL/OCIFundamentals-lab02.git
 
     Then, run the following command:
 
-        cd OCIFundamentals-lab-02/
+        cd OCIFundamentals-lab02/
 
 
 5.	**Deploy the Application (NGINX) & Service type LoadBalancer**
