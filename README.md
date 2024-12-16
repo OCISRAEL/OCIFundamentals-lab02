@@ -3,7 +3,7 @@
 
 <ins>**Lab 3 – OKE – NGINX Web Application** </ins>
 
-- **Pre-requisites (for this lab):**
+- **Pre-requisites:**
 
     * Use the same VCN and subnet we used on yesterday lab
     * Make sure port 80 is open for ingress traffic to your public subnet
@@ -11,13 +11,15 @@
 
 1. Create an OKE Cluster (**Custom create**)
 
-   1. First, make sure you're using the right region - Israel Central (Jerusalem)
+   1. Open the navigation menu and click **Developer Services**. Under **Containers & Artifacts**, click **OKE** and **Create Cluster**
 
       ![drawing](./img/cluster_creation.png)
 
     -	**Name**: Choose your cluster name
-    -	**Kubernetes** version: v1.25.4
+    -	**Compartment**: Your compartment
+    -	**Kubernetes** version: v1.31.1 (latest)
     -	**Kubernetes API Endpoint Subnet**: Choose **"Public Endpoint"**
+    -   **Node Type**: Choose **"Managed"**
     -	**Kubernetes Worker Nodes**: Choose **"Private Workers"**
     -	**Shape**: VM.Standard.E3.Flex (2 OCPUs, 8GB Memory)
     -	**Image**: Oracle Linux 8
