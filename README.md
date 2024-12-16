@@ -1,14 +1,12 @@
 # OKE Workshop
 
 
-<ins>**Lab 3 – OKE – NGINX Web Application** </ins>
+<h1><ins>**Day 2 – OKE – NGINX Web Application** </ins></h1>
 
-- **Pre-requisites:**
-
-    * Use the same account for the lab
+<h2> **TASK 1 - CREATE YOUR OKE Cluster** </h2>
 
 
-1. Create an OKE Cluster (**Custom create**)
+1. Create a Cluster (**Quick create**)
 
    1. Open the navigation menu and click **Developer Services**. Under **Containers & Artifacts**, click **OKE** and **Create Cluster**
 
@@ -80,9 +78,7 @@
 
 ***Bonus***
 
-<h2><ins>**Lab 4 – Deploy OKE Cluster Autoscaler** </ins></h2>
-
-**TASK 1 - Enabling Auto Scaler**
+<h2><ins>**TASK 2 – ENABLING OKE CLUSTER AUTOSCALER** </ins></h2>
 
 1. Choose your cluster
 
@@ -92,17 +88,19 @@
 
     ![drawing](./img/nodepoolocid.png)
 
-4. Under **Resources**, Go to  **Adds-ons** in the left panel menu
+4. Under **Cluster Details**, Go to **Resources** ->  **Adds-ons** in the left panel menu
 
 5. Click on Manage Add-On
     ![drawing](./img/addon.png)
+
+6. Choose C**luser Autoscaler** from the Adds-ons list
 
 6. Tik the '**Enable Cluster Autoscaler**' box
 
 7.	Choose **Automatic Updates**
 
 8.	Follow the insructions and pay attention to the format. min=1, max=3 (single nodepool Value from step 3)
-    ![drawing](./img/autoscaler.png)
+    ![drawing](./img/autoscaler.png) & **Save Changes**
 
 9.	Accept and close the window
 
@@ -112,5 +110,4 @@
         
         kubectl get pods -n kube-system
 
-12.	Validate cluster autoscaler pod in up & running
-
+12.	Validate cluster autoscaler pod in **Running** state
