@@ -63,6 +63,7 @@
     Did the status changed to **Running**?
     
 
+
 7.	**Get the Service Public IP Address**
 
     Run the following command in order to get the Service Public IP Address:
