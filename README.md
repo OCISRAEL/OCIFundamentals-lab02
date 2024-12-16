@@ -86,31 +86,30 @@
 
 1. Choose your cluster
 
-2. Click on add-on in the left panel menu
+2. Under **Resources**, Go to **Node Pools** & Choose Your **Pool**
+
+3. Copy the **Node Pool OCID** for later reference
+    ![drawing](./img/nodepoolocid.png)
+
+4. Under **Resources**, Go to  **Adds-ons** in the left panel menu
+
+5. Click on Manage Add-On
     ![drawing](./img/addon.png)
 
-3. Click on Manage Add-On
+6. Tik the '**Enable Cluster Autoscaler**' box
 
-4. Check the enable autoscaler box
+7.	Choose **Automatic Updates**
 
-5.	Choose Cluster Autoscaler
-
-6.	Follow the insructions and pay attention to the format. min=1, max=3 (single nodepool)
+8.	Follow the insructions and pay attention to the format. min=1, max=3 (single nodepool)
     ![drawing](./img/autoscaler.png)
 
-7.	Accept and close the window
+9.	Accept and close the window
 
-8.	Access your cluster again via cloudshell
+10.	Access your cluster again via cloudshell
 
-9.	run the command: 
+11.	Run the command: 
         
         kubectl get pods -n kube-system
 
-10.	Validate cluster autoscaler pod in up & running
+12.	Validate cluster autoscaler pod in up & running
 
-    
-    Deploy the OKE Cluster Autoscaler by using the following documentation:
-    
-    https://docs.oracle.com/en-us/iaas/Content/ContEng/Tasks/contengusingclusterautoscaler.htm#Working_with_the_Cluster_Autoscaler
-
-	Follow the instructions and validate that the number of nodes increased on the cluster.
