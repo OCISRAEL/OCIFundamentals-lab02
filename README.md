@@ -61,7 +61,7 @@
 
         kubectl get pods
     Did the status changed to **Running**?
-    
+    <br>
 
 
 7.	**Get the Service Public IP Address**
