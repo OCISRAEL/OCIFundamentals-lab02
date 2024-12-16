@@ -101,7 +101,7 @@
 
 7.	Choose **Automatic Updates**
 
-8.	Follow the insructions and pay attention to the format. min=1, max=3 (single nodepool)
+8.	Follow the insructions and pay attention to the format. min=1, max=3 (single nodepool Value from step 3)
     ![drawing](./img/autoscaler.png)
 
 9.	Accept and close the window
