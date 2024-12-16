@@ -118,17 +118,17 @@
 
 1. Setting Up an Instance Principal  to Enable the Cluster Autoscaler Add-on to Access to Node Pools Require using Dynamic Group
 
-    1. Nabigate to Identity -> Policies
+    1. Navigate to Identity -> Policies
 
     2. Create new policy and name it : autoscaler-policy (in your compartment)
 
     3. Pase the following based on your dynamic group name we created in day 1
-        Allow dynamic-group <dynamic-group-name> to manage cluster-node-pools in tenancy
-        Allow dynamic-group <dynamic-group-name> to manage instance-family in tenancy
-        Allow dynamic-group <dynamic-group-name> to use subnets in tenancy
-        Allow dynamic-group <dynamic-group-name> to read virtual-network-family in tenancy
-        Allow dynamic-group <dynamic-group-name> to use vnics in tenancy
-        Allow dynamic-group <dynamic-group-name> to inspect compartments in tenancy
+            Allow dynamic-group <dynamic-group-name> to manage cluster-node-pools in tenancy
+            Allow dynamic-group <dynamic-group-name> to manage instance-family in tenancy
+            Allow dynamic-group <dynamic-group-name> to use subnets in tenancy
+            Allow dynamic-group <dynamic-group-name> to read virtual-network-family in tenancy
+            Allow dynamic-group <dynamic-group-name> to use vnics in tenancy
+            Allow dynamic-group <dynamic-group-name> to inspect compartments in tenancy
     
     4. Save Changes
 
