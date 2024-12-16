@@ -104,7 +104,7 @@
 
 10.	Accept and close the window
 
-11.	Access your cluster again via cloudshell
+11.	Access your **Cluster** again via cloudshell
 
 12.	Run the command: 
         
@@ -114,4 +114,26 @@
 
 <br>
 
-<h2><ins>TASK 2 – Enabling OKE Cluster Autoscaler </ins></h2>
+<h2><ins>TASK 3 – Showcase Autoscaler Functionality </ins></h2>
+
+1. Setting Up an Instance Principal  to Enable the Cluster Autoscaler Add-on to Access to Node Pools Require using Dynamic Group
+
+    1. Nabigate to Identity -> Policies
+
+    2. Create new policy and name it : autoscaler-policy (in your compartment)
+
+    3. Pase the following based on your dynamic group name we created in day 1
+        Allow dynamic-group <dynamic-group-name> to manage cluster-node-pools in tenancy
+        Allow dynamic-group <dynamic-group-name> to manage instance-family in tenancy
+        Allow dynamic-group <dynamic-group-name> to use subnets in tenancy
+        Allow dynamic-group <dynamic-group-name> to read virtual-network-family in tenancy
+        Allow dynamic-group <dynamic-group-name> to use vnics in tenancy
+        Allow dynamic-group <dynamic-group-name> to inspect compartments in tenancy
+    
+    4. Save Changes
+
+2. Access your **Cluster**  via cloudshell
+
+3. Run the following command to create multipe replicas of the nginx deployment:
+    kubectl scale --replicas=30 deployment/oci-fund-nginx
+    
