@@ -147,14 +147,21 @@
 
     ![drawing](./img/nodepoolcreation.png)
 
-5. Verify new nodes creation with: 
+5. Verify new **Nodes** are under creation: 
 
         kubectl get nodes
 
-6.  Verify all podes are running with: 
+6.  Verify all podes are in **Running** State: 
         
         kubectl get pods
 
 7. Surf to your app with the external IP Address: 
 
         http://<EXTERNAL_IP_ADDRESS>
+
+8. Scale down your application to a single **Pod**:
+
+        kubectl scale --replicas=1 deployment/oci-fund-nginx
+
+9. To verify **Nodes** are scaled to minimum, run:
+        kubectl get nodes
