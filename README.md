@@ -1,9 +1,9 @@
 # OKE Workshop
 
 
-<h1><ins>**Day 2 – OKE – NGINX Web Application** </ins></h1>
+<h1><ins>Day 2 – OKE – NGINX Web Application </ins></h1>
 
-<h2> **TASK 1 - CREATE YOUR OKE Cluster** </h2>
+<h2><ins> TASK 1 - Create Your first OKE Cluster </ins></h2>
 
 
 1. Create a Cluster (**Quick create**)
@@ -78,7 +78,7 @@
 
 ***Bonus***
 
-<h2><ins>**TASK 2 – ENABLING OKE CLUSTER AUTOSCALER** </ins></h2>
+<h2><ins>TASK 2 – Enabling OKE Cluster Autoscaler</ins></h2>
 
 1. Choose your cluster
 
@@ -95,19 +95,23 @@
 
 6. Choose C**luser Autoscaler** from the Adds-ons list
 
-6. Tik the '**Enable Cluster Autoscaler**' box
+7. Tik the '**Enable Cluster Autoscaler**' box
 
-7.	Choose **Automatic Updates**
+8.	Choose **Automatic Updates**
 
-8.	Follow the insructions and pay attention to the format. min=1, max=3 (single nodepool Value from step 3)
+9.	Follow the insructions and pay attention to the format. min=1, max=3 (single nodepool Value from step 3)
     ![drawing](./img/autoscaler.png) & **Save Changes**
 
-9.	Accept and close the window
+10.	Accept and close the window
 
-10.	Access your cluster again via cloudshell
+11.	Access your cluster again via cloudshell
 
-11.	Run the command: 
+12.	Run the command: 
         
         kubectl get pods -n kube-system
 
-12.	Validate cluster autoscaler pod in **Running** state
+13.	Validate cluster autoscaler pod in **Running** state
+
+<br>
+
+<h2><ins>TASK 2 – Enabling OKE Cluster Autoscaler </ins></h2>
