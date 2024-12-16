@@ -122,8 +122,8 @@
 
     2. Create new policy and name it : autoscaler-policy (in your compartment)
 
-    3. Pase the following based on your dynamic group name we created in day 1
-    
+    3. Pase the following based on your dynamic group name we created in day 1:
+
             Allow dynamic-group <dynamic-group-name> to manage cluster-node-pools in tenancy
             Allow dynamic-group <dynamic-group-name> to manage instance-family in tenancy
             Allow dynamic-group <dynamic-group-name> to use subnets in tenancy
