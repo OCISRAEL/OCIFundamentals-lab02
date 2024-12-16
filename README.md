@@ -5,8 +5,7 @@
 
 - **Pre-requisites:**
 
-    * Use the same VCN and subnet we used on yesterday lab
-    * Make sure port 80 is open for ingress traffic to your public subnet
+    * Use the same account for the lab
 
 
 1. Create an OKE Cluster (**Custom create**)
@@ -73,7 +72,7 @@
 
     ![drawing](./img/oci_fund_nginx.png)
  
-    Copy the IP Address and paste it in the browser (http://<IP-ADDRESS\>)
+8. Copy the IP Address and paste it in the browser (http://<IP-ADDRESS\>)
 
     ![drawing](./img/welcome_to_nginx.png)
 
@@ -87,7 +86,27 @@
 
 1. Choose your cluster
 
-2. 	
+2. Click on add-on in the left panel menu
+    ![drawing](./img/addon.png)
+
+3. Click on Manage Add-On
+
+4. Check the enable autoscaler box
+
+5.	Choose Cluster Autoscaler
+
+6.	Follow the insructions and pay attention to the format. min=1, max=3 (single nodepool)
+    ![drawing](./img/autoscaler.png)
+
+7.	Accept and close the window
+
+8.	Access your cluster again via cloudshell
+
+9.	run the command: 
+        kubectl get pods -n kube-system
+
+10.	Validate cluster autoscaler pod in up & running
+
     
     Deploy the OKE Cluster Autoscaler by using the following documentation:
     
