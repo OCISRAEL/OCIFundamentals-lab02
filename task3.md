@@ -25,7 +25,7 @@
 
         kubectl scale --replicas=30 deployment/oci-fund-nginx
 
-4. Navigate to **Node Pools** & Choose Your **Pool**. Wait and observe how the node pool updates in the console
+4. Navigate to **Node Pools** & Choose Your **Pool**.Wait and observe how the node pool updates in the console
 
     ![drawing](./img/nodepoolcreation.png)
 
