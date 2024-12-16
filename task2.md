@@ -11,6 +11,7 @@
 4. Under **Cluster Details**, Go to **Resources** ->  **Adds-ons** in the left panel menu
 
 5. Click on Manage Add-On
+
     ![drawing](./img/addon.png)
 
 6. Choose **Cluser Autoscaler** from the Adds-ons list
