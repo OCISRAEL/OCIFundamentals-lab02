@@ -9,8 +9,6 @@
 
 3. TASK 3 - Showcase Autoscaler Functionality [(Click Here)](/task3.md)
 
-<h2><ins> TASK 1 - Create Your first OKE Cluster </ins></h2>
-
 <br>
 
 <h3>CONGRATULATIONS!! YOU HAVE COMPLETED THE OKE LAB!</h3>
