@@ -135,7 +135,7 @@
     
     4. Save Changes
     
-    ![drawing](./img/dgpolicy.png)
+   ![drawing](./img/dgpolicy.png)
 
 2. Access your **Cluster**  via cloudshell
 
