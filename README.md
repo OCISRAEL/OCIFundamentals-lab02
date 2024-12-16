@@ -134,7 +134,7 @@
             Allow dynamic-group <dynamic-group-name> to inspect compartments in tenancy
     
     4. Save Changes
-        ![drawing](./img/dgpolicy.png)
+    ![drawing](./img/dgpolicy.png)
 
 2. Access your **Cluster**  via cloudshell
 
