@@ -89,6 +89,7 @@
 2. Under **Resources**, Go to **Node Pools** & Choose Your **Pool**
 
 3. Copy the **Node Pool OCID** for later reference
+
     ![drawing](./img/nodepoolocid.png)
 
 4. Under **Resources**, Go to  **Adds-ons** in the left panel menu
