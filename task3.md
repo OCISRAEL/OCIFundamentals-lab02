@@ -48,6 +48,3 @@
 9. Wait few seconds. To verify **Nodes** are scaled to minimum, run:
 
         kubectl get nodes
-
-
-<h3>CONGRATULATIONS!! YOU HAVE COMPLETED THE OKE LAB!</h3>
