@@ -60,9 +60,10 @@
     Validate the application is running by running the following command:
 
         kubectl get pods
+    
     Did the status changed to **Running**?
-    <br>
 
+<br>
 
 7.	**Get the Service Public IP Address**
 
