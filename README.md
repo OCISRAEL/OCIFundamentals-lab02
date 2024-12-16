@@ -116,7 +116,9 @@
 
 <h2><ins>TASK 3 – Showcase Autoscaler Functionality </ins></h2>
 
-1. Setting Up an Instance Principal  to Enable the Cluster Autoscaler Add-on to Access to Node Pools Require using Dynamic Group
+1. Setting Up an Instance Principal  to Enable the Cluster Autoscaler Add-on to Access to Node Pools Require using Dynamic Group 
+
+**Important:** Use the same Dynamic Group that have been created in Lab Day 1 !!
 
     1. Navigate to Identity -> Policies
 
@@ -133,7 +135,7 @@
     
     4. Save Changes
 
-![drawing](./img/dgpolicy.png)
+        ![drawing](./img/dgpolicy.png)
 
 2. Access your **Cluster**  via cloudshell
 
@@ -141,7 +143,7 @@
 
         kubectl scale --replicas=30 deployment/oci-fund-nginx
 
-4. Wait and observe the node pool updating in the console
+4. Navigate to **Node Pools** & Choose Your **Pool**. Wait and observe how the node pool updating in the console
 
 5. Verify new nodes creation with: 
 
@@ -149,7 +151,7 @@
 
 6.  Verify all podes are running with: 
         
-        kubectl get podes
+        kubectl get pods
 
 7. Surf to your app with the external IP Address: 
 
