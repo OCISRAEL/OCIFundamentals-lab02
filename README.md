@@ -33,7 +33,7 @@
 
 
 
-3.	Launch “**Cloud Shell**” and paste the command grant you the access to your cluster.
+3.	Wait for Creation & Launch “**Cloud Shell**” and paste the command grant you the access to your cluster.
 
 
 
@@ -60,7 +60,8 @@
     Validate the application is running by running the following command:
 
         kubectl get pods
-
+    Did the status changed to **Running**?
+    
 
 7.	**Get the Service Public IP Address**
 
@@ -78,7 +79,14 @@
 
 ***Bonus***
 
-1.	**Deploy OKE Cluster Autoscaler**
+<ins>**Lab 4 – Deploy OKE Cluster Autoscaler </ins>
+
+**TASK 1 - Enabling Auto Scaler**
+
+1. Choose your cluster
+
+2. 	
+    
     Deploy the OKE Cluster Autoscaler by using the following documentation:
     
     https://docs.oracle.com/en-us/iaas/Content/ContEng/Tasks/contengusingclusterautoscaler.htm#Working_with_the_Cluster_Autoscaler
