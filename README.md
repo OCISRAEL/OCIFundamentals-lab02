@@ -1,10 +1,11 @@
 # OKE Workshop
 
 
-<ins>**Lab 2 – OKE – NGINX Web Application** </ins>
+<ins>**Lab 3 – OKE – NGINX Web Application** </ins>
 
 - **Pre-requisites (for this lab):**
 
+    * Use the same VCN and subnet we used on yesterday lab
     * Make sure port 80 is open for ingress traffic to your public subnet
 
 
