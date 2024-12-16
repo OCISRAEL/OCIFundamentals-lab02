@@ -3,6 +3,10 @@
 
 <h1><ins>Day 2 – OKE – NGINX Web Application </ins></h1>
 
+* TASK 1 - Create Your first OKE Cluster [(Click here to create)](/task1.md)
+
+
+
 <h2><ins> TASK 1 - Create Your first OKE Cluster </ins></h2>
 
 
