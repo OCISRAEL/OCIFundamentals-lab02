@@ -164,4 +164,5 @@
         kubectl scale --replicas=1 deployment/oci-fund-nginx
 
 9. To verify **Nodes** are scaled to minimum, run:
+
         kubectl get nodes
