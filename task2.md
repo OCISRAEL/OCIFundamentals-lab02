@@ -20,8 +20,10 @@
 
 8.	Choose **Automatic Updates**
 
-9.	Follow the insructions and pay attention to the format. min=1, max=3 (single nodepool OCID value from step 3)
-    ![drawing](./img/autoscaler.png) & **Save Changes**
+9.	Follow the insructions and pay attention to the format. min=1, max=3 (single nodepool. OCID value from step 3)
+    ![drawing](./img/autoscaler.png) & 
+    
+    **Save Changes**
 
 10.	Accept and close the window
 
