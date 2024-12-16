@@ -138,4 +138,17 @@
 3. Run the following command to create multipe replicas of the nginx deployment:
 
         kubectl scale --replicas=30 deployment/oci-fund-nginx
-    
+
+4. Wait and observe the node pool updating in the console
+
+5. Verify new nodes creation with: 
+
+        kubectl get nodes
+
+6.  Verify all podes are running with: 
+        
+        kubectl get podes
+
+7. Surf to your app with the external IP Address: 
+
+        http://<EXTERNAL_IP_ADDRESS>
