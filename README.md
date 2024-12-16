@@ -145,6 +145,8 @@
 
 4. Navigate to **Node Pools** & Choose Your **Pool**. Wait and observe how the node pool updating in the console
 
+    ![drawing](./img/nodepoolcreation.png)
+
 5. Verify new nodes creation with: 
 
         kubectl get nodes
