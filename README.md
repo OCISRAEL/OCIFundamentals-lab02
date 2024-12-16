@@ -80,7 +80,7 @@
 
 ***Bonus***
 
-<ins>**Lab 4 – Deploy OKE Cluster Autoscaler </ins>
+<h2><ins>**Lab 4 – Deploy OKE Cluster Autoscaler** </ins></h2>
 
 **TASK 1 - Enabling Auto Scaler**
 
@@ -103,6 +103,7 @@
 8.	Access your cluster again via cloudshell
 
 9.	run the command: 
+        
         kubectl get pods -n kube-system
 
 10.	Validate cluster autoscaler pod in up & running
