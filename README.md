@@ -133,6 +133,8 @@
     
     4. Save Changes
 
+![drawing](./img/dgpolicy.png)
+
 2. Access your **Cluster**  via cloudshell
 
 3. Run the following command to create multipe replicas of the nginx deployment:
