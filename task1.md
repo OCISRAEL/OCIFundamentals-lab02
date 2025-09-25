@@ -20,14 +20,26 @@
     
     2. Review and Click **Create cluster**.
 
+2. Proceed with **Enhanced Cluster Features** and click **Continue**
 
-2. Go to the Cluster page, click on “**Access Cluster**”
+3. Once the cluster creation is initiated, you can **Close** the creation window
+
+4. Wait for the cluster status to change to **Active**
+
+5. Go to **Quick start:Deploy sample app** tab. Click on “**Access Cluster**”
 
       ![drawing](./img/access_cluster.png)
 
+6. Follow this steps:
+    1. Choose **Cloud Shell Access**
 
+    2. Copy the **Access command** to your clipboard
 
-3.	Wait for Creation & Launch “**Cloud Shell**” and paste the command grant you the access to your cluster.
+    3. Lunch **Cloud Shell**
+
+    ![drawing](./img/cloud_shell_access.png)
+
+7.	Paste the command in the CLI screen that will grant you the access to your cluster
 
 
 
