@@ -7,16 +7,18 @@
 
       ![drawing](./img/cluster_creation.png)
 
-    -	**Name**: Choose your cluster name
-    -	**Compartment**: Your compartment
-    -	**Kubernetes** version: v1.31.1 (latest)
-    -	**Kubernetes API Endpoint Subnet**: Choose **"Public Endpoint"**
-    -   **Node Type**: Choose **"Managed"**
-    -	**Kubernetes Worker Nodes**: Choose **"Private Workers"**
-    -	**Shape**: VM.Standard.E3.Flex (2 OCPUs, 8GB Memory)
-    -	**Image**: Oracle Linux 8
+    -	**Name**: OKE-lab
+    -	**Compartment**: demo
+    -	**Kubernetes** version: v1.33 ( orl latest available)
+    -	**Kubernetes API Endpoint Subnet**: Public Endpoint
+    -   **Node Type**: Managed
+    -	**Kubernetes Worker Nodes**: Private Workers
+    -	**Shape**: VM.Standard.E4.Flex (2 OCPUs, 8GB Memory)
+    -	**Image**: Default Value
     -	**Number of nodes**: 1
-    Click **Next** and **"Create"**.
+    Click **Next**
+    
+    2. Review and Click **Create cluster**.
 
 
 2. Go to the Cluster page, click on “**Access Cluster**”
