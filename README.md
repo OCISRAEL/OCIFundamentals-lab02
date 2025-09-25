@@ -1,7 +1,7 @@
 # OKE Workshop
 
 
-<h1><ins>Day 2 – OKE – NGINX Web Application </ins></h1>
+<h1><ins>Day 2 -- OKE – NGINX Web Application </ins></h1>
 
 1. TASK 1 - Create Your first OKE Cluster [(Click Here)](/task1.md)
 
