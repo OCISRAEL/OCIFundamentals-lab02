@@ -25,7 +25,7 @@
 9.	Choose **Automatic Updates**
 
 10.	Follow the instructions and enter the values in the correct format: min=1, max=3 (Use the Node Pool ID value copied in step 3)
-    ![drawing](./img/autoscalerconfig.png) & 
+    ![drawing](./img/autoscalerconfig.png)
     
     **Save Changes**
 
