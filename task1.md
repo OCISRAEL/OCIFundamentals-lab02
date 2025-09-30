@@ -80,8 +80,8 @@
 
         kubectl get service oci-fund-nginx
 
-    ![drawing](./img/oci_fund_nginx.png)
+    ![drawing](./img/extip.png)
  
-14. Copy the IP Address and paste it in the browser (http://<IP-ADDRESS\>)
+14. Copy the External-IP Address and paste it in the browser (http://<IP-ADDRESS\>)
 
     ![drawing](./img/welcome_to_nginx.png)
