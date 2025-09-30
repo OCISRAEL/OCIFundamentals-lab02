@@ -15,7 +15,7 @@
             Allow dynamic-group <dynamic-group-name> to use vnics in compartment <YOUR_COMPARTMENT_NAME>
             Allow dynamic-group <dynamic-group-name> to inspect compartments in compartment <YOUR_COMPARTMENT_NAME>
     
-        **Important:** Use the same Dynamic Group & Compartment names that have been created in Day 1 !!
+        <span style="color:red; font-weight:bold"> Important: Use the same Dynamic Group & Compartment names that have been created in Day 1 !!</span> 
 
     4. Save Changes
 
