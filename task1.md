@@ -45,13 +45,13 @@
 
     ![drawing](./img/cloud_shell_access.png)
 
-8.	Paste the **Access Command** in the CLI screen that will grant you the access to your cluster
+8. Paste the **Access Command** into the CLI screen to gain access to your cluster.
 
-9. confirmed that the **Node Pool** created with single server
+9. Confirm that the **Node Pool** was created with a single server:
 
         kubectl get nodes
 
-10. Clone the code repository
+10. Clone the code repository:
 
         git clone https://github.com/OCISRAEL/OCIFundamentals-lab02.git
 
@@ -62,26 +62,26 @@
 
 11.	Deploy the **NGINX** application 
 
-    To deploy the web application and its service type LoadBalancer (which will expose the application to the public), run the following command:
+    To deploy the web application and its LoadBalancer service (which exposes the application to the public), run:
 
         kubectl apply -f nginx.yaml
 
-12.	Validate the application is is **Running** state
+12.	Validate that the application is in **Running** state
 
         kubectl get pods
     
-    Did the status changed to **Running**?
+    Did the status change to **Running**?
 
 <br>
 
 13.	**Get the Service Public IP Address**
 
-    Run the following command in order to get the Service Public IP Address:
-
         kubectl get service oci-fund-nginx
 
     ![drawing](./img/extip.png)
  
-14. Copy the External-IP Address and paste it in the browser (http://<IP-ADDRESS\>)
+14. Copy the **External-IP** address and paste it into your browser (http://<IP-ADDRESS\>)
 
     ![drawing](./img/welcome_to_nginx.png)
+
+15. Congratulations! You have created your first Kubernetes app hosted in a pod on OKE.
