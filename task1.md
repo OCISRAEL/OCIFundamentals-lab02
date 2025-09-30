@@ -53,7 +53,7 @@
 
 10. Clone the code repository
 
-    git clone https://github.com/OCISRAEL/OCIFundamentals-lab02.git
+        git clone https://github.com/OCISRAEL/OCIFundamentals-lab02.git
 
     Then, run the following command:
 
