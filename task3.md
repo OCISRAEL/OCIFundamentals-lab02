@@ -2,8 +2,6 @@
 
 1. Setting Up an Instance Principal  to Enable the Cluster Autoscaler Add-ons to access to **Node Pools** Require using Dynamic Group 
 
-    **Important:** Use the same Dynamic Group & Compartment names that have been created in Day 1 !!
-
     1. Navigate to Identity -> Policies
 
     2. Create a new policy and name it: autoscaler-policy (in your compartment)
@@ -17,6 +15,8 @@
             Allow dynamic-group <dynamic-group-name> to use vnics in compartment <YOUR_COMPARTMENT_NAME>
             Allow dynamic-group <dynamic-group-name> to inspect compartments in compartment <YOUR_COMPARTMENT_NAME>
     
+        **Important:** Use the same Dynamic Group & Compartment names that have been created in Day 1 !!
+
     4. Save Changes
 
 2. Access your **Cluster** via cloudshell
