@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        docker.io/library/nginx:latest
+        imagePullPolicy: IfNotPresent
         resources:
           requests:
             memory: "64Mi"
