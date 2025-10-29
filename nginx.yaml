@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        docker.io/library/nginx:latest
+        image: docker.io/library/nginx:latest
         imagePullPolicy: IfNotPresent
         resources:
           requests:
